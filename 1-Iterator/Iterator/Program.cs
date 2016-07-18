@@ -10,6 +10,13 @@ namespace Iterator
     {
         static void Main(string[] args)
         {
+            Teacher you = new MyTeacher();
+            you.CreateStudentList();
+            you.CallStudents();
+
+            var veteran = new VeteranTeacher();
+            veteran.CreateStudentList();
+            veteran.CallStudents();
             Console.ReadKey();
         }
     }

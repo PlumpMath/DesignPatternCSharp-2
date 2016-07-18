@@ -43,10 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aggregate.cs" />
+    <Compile Include="Iterator.cs" />
+    <Compile Include="MyStudentList.cs" />
+    <Compile Include="MyStudentListIterator.cs" />
+    <Compile Include="MyTeacher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentList.cs" />
+    <Compile Include="Teacher.cs" />
+    <Compile Include="VeteranTeacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
