@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Adapter
 {
-    class Program
+    interface Chairperson
     {
-        static void Main(string[] args)
-        {
-            Teacher.main(args);
-            Console.ReadKey();
-        }
+        void organizeClass();
     }
 }

@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Adapter
 {
-    class Program
+    class Taro
     {
-        static void Main(string[] args)
+        public void enjoyWithAllClassmate()
         {
-            Teacher.main(args);
-            Console.ReadKey();
+            Console.WriteLine("みんなで楽しむ");
         }
     }
 }

@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Adapter
 {
-    class Program
+    class NewTaro : Taro, Chairperson
     {
-        static void Main(string[] args)
+        public void organizeClass()
         {
-            Teacher.main(args);
-            Console.ReadKey();
+            enjoyWithAllClassmate();
         }
     }
 }
