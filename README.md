@@ -12,4 +12,4 @@ Aggregate と Ｉｔｅｒａｔｏr は対で作成する
 ### 3.TemplateMethodパターン
 スーパークラスで処理の枠組みを定める
 
-### 4.
+### 4.FactoryMethod パターン
