@@ -20,3 +20,7 @@ Aggregate と Ｉｔｅｒａｔｏr は対で作成する
 
 ### 6.Prototype パターン
 複製を作成するためのメソッドを用意する
+
+### 7.Builder パターン
+Director ：作成過程
+Builder：表現形式
