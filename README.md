@@ -14,3 +14,9 @@ Aggregate と Ｉｔｅｒａｔｏr は対で作成する
 
 ### 4.FactoryMethod パターン
 インスタンスの生成をサブクラスに行わせる
+
+### 5.Singleton パターン
+コンストラクタを private に
+
+### 6.Prototype パターン
+複製を作成するためのメソッドを用意する
