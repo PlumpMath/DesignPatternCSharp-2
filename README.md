@@ -35,11 +35,20 @@ Builder：表現形式
 
 [Factory Method パターンとの違い](https://ja.wikipedia.org/wiki/Abstract_Factory_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3#Factory_Method_.E3.83.91.E3.82.BF.E3.83.BC.E3.83.B3.E3.81.A8.E3.81.AE.E9.81.95.E3.81.84)
 
+
 ### 9. Bridge パターン
 クラスを複数の方向に拡張させることを目的とする。
 - 機能拡張クラス(Abstraction)と実装拡張クラス(Implementor)を分離
 - Abstractionの最上位クラスが Implementor を内部に保持
 
 
+### 10. Strategy パターン
+戦略(アルゴリズム)の切り替えや追加が簡単に行えるようになる。
+- Strategy が戦略のインターフェースを定義
+- Context が戦略(Strategy)を切り替え
+
+※Bridge パターンと Strategy パターンの違い -> class or interface
+
+- - -
 ※参考資料
 [デザインパターン入門 - IT専科](http://www.itsenka.com/contents/development/designpattern/)
